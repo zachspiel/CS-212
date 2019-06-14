@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <title>Root Beer Recipe Generator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id ="stage">
+<h1>Root Beer Float Maker</h1>
+<form>
+    <!--Fieldsets for icecream and rootbeer-->
+   <fieldset id="field1">
+    <legend style="text-align:center;">Icecreams</legend>
+    <input type="checkbox" name="icecream" value="Vanilla">Vanilla<br>
+    <input type="checkbox" name="icecream" value="Chocolate">Chocolate<br>
+    <input type="checkbox" name="icecream" value="Coffee">Coffee<br>
+   </fieldset>
+
+   <fieldset id="field2">
+    <legend style="text-align:center;">Rootbeers</legend>
+    <input type="radio" name="rootbeers" value="Barq's"> Barq's<br>
+    <input type="radio" name="rootbeers" value="A&W"> A&W<br>
+    <input type="radio" name="rootbeers" value="Dad's"> Dad's<br>
+    <input type="radio" name="rootbeers" value="IBC">IBC
+   </fieldset>
+</form>
+
+<button type="button" onclick="checkvalue()">I'm ready to make my float!</button>
+
+<!--Output dive to print recipe-->
+<div id="recipe">
+  <p >Recipe:</p>
+  <p id="output"></p>
+</div>
+</div>
+<img src="root-beer-img.jpg">
+
+<script src="script.js"></script>
+</body>
+</html>

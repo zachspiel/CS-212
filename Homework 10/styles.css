@@ -1,0 +1,35 @@
+#stage{
+  width:25%;
+  float:left;
+}
+fieldset, input {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+fieldset {
+    padding: 3px;
+    margin:0;
+    float: left;
+}
+#field1 {
+    width: 50%;
+}
+#field2 {
+    width: 50%;
+}
+label {
+    float:left;
+    font-weight:bold;
+}
+
+#recipe{
+  background-color: rgb(129,77,48);
+  border-style: double;
+  border-color: white;
+  color:white;
+  border-width: 5px;
+  padding:5px;
+  border-spacing: 5px;
+  visibility: hidden;
+}
