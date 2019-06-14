@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Restaruant Bill</title>
+	<script type="text/javascript" href="script.js"></script>
+
+	<style type="text/css">
+		h1{
+			text-align: center;
+		}
+
+		#stage{
+			text-align:center;
+			border:1px solid black;
+		}
+
+		input:focus {
+			background-color: #42f49e;
+		}
+
+		input:valid{
+			background-color: white; 
+		}
+		input:invalid{
+			background-color:#f44245; 
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to Restaraunt Bill!</h1>
+	<hr>
+	<br>
+	<div id="stage">
+	<form>
+		<label for="taxRate">Enter the Tax Rate!</label>
+		<input type="number" name="taxRate" step=".01" id="tax" required><br>
+		<label for="price">Enter the Price! </label>
+		<input type="number" name="price" placeholder="Enter the price!" required><br>
+		<label for="tip">Enter the tip amount! </label>
+		<input type="number" name="tip" required=""><br>
+
+		<button onclick="validate()">Calculate Bill</button>
+	</form>
+</div>
+
+<script>
+
+function validate(){
+	var x, text;
+
+	x = document.getElementById("tax");
+</script>
+
+</body>
+</html>
