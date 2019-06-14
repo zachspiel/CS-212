@@ -1,0 +1,44 @@
+/*Requirement A: */
+#header{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h2{
+	background-color:white;
+	display: inline;
+}
+/*Requirement B:*/
+body{
+	background-image: url("minimalist-background-pattern.jpg");
+	background-repeat: repeat;
+}
+
+/*Requirement C: */
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/*Requirement D: */
+p:first-letter{
+	font-size: 1.5em;
+	color:blue;
+}
+
+/*Requirement E: */
+li:nth-child(odd) {
+  color: red;
+}
+
+li:nth-child(even) {
+  color: blue;
+}
+
+.row{
+	display: flex;
+}
